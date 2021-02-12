@@ -39,7 +39,7 @@ I made meaningful commits at the completion of each user story, as well as any o
 
 As I mentioned, my most common and harrowing (**spooky ghost sound**) blockers were around writing my tests properly, specifically if I hadn't had much practice with a specific type of problem and the syntax relevant to it. For example, my first real blocker was writing a stub to check if a plane was at the airport. Luckily, I had been provided with a really useful link which quite clearly articulated the solution (or at least, it was clear once I actually paid attention!).
 
-Even after that, I continued to hit roadblocks when it came to writing tests with the correct syntax, but started to feel more and more comfortable and confident as I went along. I started paying more attention to how I can refactor my tests to be tidier and more readable using describe, context, and before blocks. This allowed me to create doubles according to specific types of tests, and segment them all together. This is much more efficient and readable than repeating doubles and stubs for multiple tests. It also made me feel pretty cool I'll be honest, **shrug**.
+Even after that, I continued to hit roadblocks when it came to writing tests with the correct syntax, but started to feel more and more comfortable and confident as I went along. I started paying more attention to how I can refactor my tests to be tidier and more readable using describe, context, and before blocks. This allowed me to create doubles according to specific types of tests, and segment them all together. This is much more efficient and readable than repeating doubles and stubs for multiple tests. It also made me feel pretty cool I'll be honest. **shrug**
 
 ## Code ##
 What you've been waiting for! Right?
