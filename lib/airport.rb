@@ -18,7 +18,7 @@ class Airport
   def land(plane)
     prevent_landing
     raise "Plane is already at airport, cannot land again." if plane_at_airport?(plane)
-    
+
     @planes_at_airport << plane
     plane.to_s + " landing now" if plane_at_airport?(plane)
   end
@@ -32,7 +32,7 @@ class Airport
   end
 
   def plane_at_airport?(plane)
-    puts plane
+    plane
     return true if @planes_at_airport.include?(plane)
 
     false

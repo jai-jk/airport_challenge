@@ -29,7 +29,6 @@ describe Airport do
     end
 
     describe ':plane_at_airport? is expected to return' do
-
       it 'true' do
         expect(@airport.plane_at_airport?(@plane)).to eq true
       end

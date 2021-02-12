@@ -24,7 +24,7 @@ The tests [should] all pass with 100% coverage, including the first edge case (p
 
 This challenge has really helped me push my synctatical knowledge and skills with RSpec, and I really enjoyed it as I went through it. It was quite frustrating at times, especially because the code itself isn't very difficult to write - I'm still getting confident and effective with the actual syntax and logic of RSpec but I'm coming to really love it. Cycling through Feature tests and Unit tests helped me build a relatively robust program and deepen my understanding. I really enjoy thinking about products and why they're successful, and am super eager to build products that are solid and useful for customers, so the TDD process really appeals to me and I can see why it's useful for building sustainable programs.
 
-I also need to do further research and practice with private and public methods, but did my best with them today.
+I also need to do further research and practice with private and public methods, but did my best with them today; and I should've refactored my weather class to rely on a more solid protocol - it's currently too magic number-y.
 
 ## Great! What was my process? ##
 I broke the User Stories down into tables, and then made simple diagrams from them. This really helped me tackle everything one step at a time, and was my saving grace any time I got lost or wound up.
@@ -37,9 +37,9 @@ I made meaningful commits at the completion of each user story, as well as any o
 
 ## Challenges // Blockers ##
 
-As I mentioned, my most common and harrowing (*spooky ghost sound*) blockers were around writing my tests properly, specifically if I hadn't had much practice with a specific type of problem and the syntax relevant to it. For example, my first real blocker was writing a stub to check if a plane was at the airport. Luckily, I had been provided with a really useful link which quite clearly articulated the solution (or at least, it was clear once I actually paid attention!).
+As I mentioned, my most common and harrowing (//*spooky ghost sound*//) blockers were around writing my tests properly, specifically if I hadn't had much practice with a specific type of problem and the syntax relevant to it. For example, my first real blocker was writing a stub to check if a plane was at the airport. Luckily, I had been provided with a really useful link which quite clearly articulated the solution (or at least, it was clear once I actually paid attention!).
 
-Even after that, I continued to hit roadblocks to do with writing tests with the correct syntax, but started to feel more and more comfortable and confident as I went along. I started paying more attention to how I can refactor my tests to be tidier and more readable using describe, context, and before blocks. This allowed me to create doubles according to specific types of tests, and segment them all together. This is much more efficient and readable than repeating doubles and stubs for multiple tests. It also made me feel pretty cool, I'll be honest *shrug*.
+Even after that, I continued to hit roadblocks when it came to writing tests with the correct syntax, but started to feel more and more comfortable and confident as I went along. I started paying more attention to how I can refactor my tests to be tidier and more readable using describe, context, and before blocks. This allowed me to create doubles according to specific types of tests, and segment them all together. This is much more efficient and readable than repeating doubles and stubs for multiple tests. It also made me feel pretty cool, I'll be honest //*shrug*//.
 
 ## Code ##
 What you've been waiting for! Right?
